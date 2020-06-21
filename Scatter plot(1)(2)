@@ -1,0 +1,7 @@
+plt.scatter(gdp_cap, life_exp)
+plt.xscale('log')
+plt.show()
+
+import matplotlib.pyplot as plt
+plt.scatter(pop, life_exp)
+plt.show()
