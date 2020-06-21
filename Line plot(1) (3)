@@ -1,0 +1,8 @@
+print(year[-1]) ; print(pop[-1])
+import matplotlib.pyplot as plt
+plt.plot(year,pop)
+plt.show()
+
+print(gdp_cap[-1]); print(life_exp[-1])
+plt.plot(gdp_cap, life_exp)
+plt.show()
