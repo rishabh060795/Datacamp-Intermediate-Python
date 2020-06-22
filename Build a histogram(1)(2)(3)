@@ -1,0 +1,26 @@
+## (1) ##
+plt.hist(life_exp)
+plt.show()
+
+## (2) ##
+plt.hist(life_exp, 5)
+plt.show()
+plt.clf()
+plt.hist(life_exp, 20)
+plt.show()
+plt.clf()
+
+## (3) ##
+# Histogram of life_exp, 15 bins
+plt.hist(life_exp, 15)
+
+# Show and clear plot
+plt.show()
+plt.clf()
+
+# Histogram of life_exp1950, 15 bins
+plt.hist(life_exp1950, 15)
+
+# Show and clear plot again
+plt.show()
+plt.clf()
